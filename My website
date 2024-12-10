@@ -1,0 +1,178 @@
+index.html
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تعمیرات تخصصی تجهیزات پزشکی و دندانپزشکی</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>تعمیرات تخصصی تجهیزات پزشکی و دندانپزشکی</h1>
+        <nav>
+            <a href="index.html">صفحه اصلی</a>
+            <a href="services.html">خدمات</a>
+            <a href="contact.html">تماس با ما</a>
+        </nav>
+    </header>
+    <main>
+        <h2>خوش آمدید!</h2>
+        <p>ما تخصصی‌ترین خدمات تعمیر تجهیزات پزشکی و دندانپزشکی را در استان خوزستان ارائه می‌دهیم.</p>
+    </main>
+    <footer>
+        <p>© 2024 تعمیرات تخصصی تجهیزات پزشکی و دندانپزشکی | تمامی حقوق محفوظ است.</p>
+    </footer>
+</body>
+</html>
+services.html
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمات ما</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>خدمات تعمیرات ما</h1>
+        <nav>
+            <a href="index.html">صفحه اصلی</a>
+            <a href="services.html">خدمات</a>
+            <a href="contact.html">تماس با ما</a>
+        </nav>
+    </header>
+    <main>
+        <h2>خدمات ارائه شده:</h2>
+        <ul>
+            <li>تعمیر تجهیزات دندانپزشکی</li>
+            <li>تعمیر دستگاه‌های پزشکی و آزمایشگاهی</li>
+            <li>تعمیر دستگاه‌های لاغری و زیبایی</li>
+            <li>تعویض قطعات و تست عملکرد</li>
+        </ul>
+        <h3>نمونه دستگاه‌ها:</h3>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300x200?text=%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87+%D8%AF%D9%86%D8%AF%D8%A7%D9%86%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C" alt="دستگاه دندانپزشکی">
+            <img src="https://via.placeholder.com/300x200?text=%D8%AF%D8%B3%D8%AA%DA%AF%D9%84%D8%A7%D8%B1%DB%8C" alt="دستگاه لاغری">
+            <img src="https://via.placeholder.com/300x200?text=%D8%AA%D8%AC%D9%87%DB%8C%D8%B2%D8%A7%D8%AA+%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C" alt="تجهیزات پزشکی">
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 تعمیرات تخصصی تجهیزات پزشکی و دندانپزشکی | تمامی حقوق محفوظ است.</p>
+    </footer>
+</body>
+</html>
+contact.html
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تماس با ما</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>تماس با ما</h1>
+        <nav>
+            <a href="index.html">صفحه اصلی</a>
+            <a href="services.html">خدمات</a>
+            <a href="contact.html">تماس با ما</a>
+        </nav>
+    </header>
+    <main>
+        <h2>راه‌های ارتباطی:</h2>
+        <p>شماره تماس 1: <a href="tel:09163424844">09163424844</a></p>
+        <p>شماره تماس 2: <a href="tel:09337694841">09337694841</a></p>
+        <p>واتساپ: <a href="https://wa.me/09163424844" target="_blank">ارسال پیام به واتساپ</a></p>
+        <p>تلگرام: <a href="https://t.me/hoji4844.hm" target="_blank">ارتباط در تلگرام</a></p>
+        <p>اینستاگرام: <a href="https://instagram.com/hoji4844.hm" target="_blank">صفحه اینستاگرام ما</a></p>
+    </main>
+    <footer>
+        <p>© 2024 تعمیرات تخصصی تجهیزات پزشکی و دندانپزشکی | تمامی حقوق محفوظ است.</p>
+    </footer>
+</body>
+</html>
+style.css
+/* تنظیمات عمومی */
+body {
+    font-family: 'Tahoma', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+/* هدر */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* بخش اصلی */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* گالری تصاویر */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* فوتر */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
